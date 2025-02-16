@@ -11,6 +11,7 @@ options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) App
 driver = Selenium::WebDriver.for :chrome, options: options
 
 puts "Please enter the product you want to search for:"
+$stdout.flush
 search = gets.chomp
 search = search.gsub(" ", "+")
 
