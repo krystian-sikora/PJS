@@ -1,0 +1,116 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_opening_hours
+  examples: |
+    - What are your opening hours on [Monday](day)?
+    - When are you open on [Tuesday](day)?
+    - What are your hours on [Wednesday](day)?
+    - When are you open on [Thursday](day)?
+    - Is the restaurant open on [Friday](day)?
+    - Can you tell me your schedule for [Saturday](day)?
+
+- intent: ask_for_menu_item
+  examples: |
+    - Do you have [sushi](item) on the menu?
+    - Can I get [pizza](item) at your place?
+    - What kind of [pasta](item) do you serve?
+    - Is [steak](item) on the menu?
+    - Can I get [salad](item) at your place?
+
+- intent: order
+  examples: |
+    - I want to order [pizza](item)
+    - Can I get [sushi](item)?
+    - I would like to order [pasta](item)
+    - I want to get [steak](item)
+    - Can I order [salad](item)?

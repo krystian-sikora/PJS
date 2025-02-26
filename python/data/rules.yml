@@ -1,0 +1,18 @@
+version: "3.1"
+
+rules:
+
+- rule: Ask about opening hours
+  steps:
+  - intent: ask_opening_hours
+  - action: action_opening_hours
+
+- rule: Ask menu item
+  steps:
+  - intent: ask_for_menu_item
+  - action: action_ask_menu_item
+
+- rule: Order item
+  steps:
+  - intent: order
+  - action: action_order
