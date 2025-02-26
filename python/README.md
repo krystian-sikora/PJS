@@ -14,3 +14,7 @@ Follow the instructions in the [Rasa documentation](https://rasa.com/docs/rasa/u
 * run `rasa run actions`
 * run `ngrok http 5005`
 * copy the https url and paste it in the slack app settings with "/webhooks/slack/webhook" at the end
+
+### Example conversation:
+
+![image](https://github.com/user-attachments/assets/397f0146-8f4f-498e-9471-522dad04db22)
